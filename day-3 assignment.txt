@@ -1,0 +1,160 @@
+day03-task
+Q1)For the given JSON iterate over all for loops (for, for in, for of, forEach)
+
+1)using forloop
+
+code:
+var details={
+    "name":"ramesh kumar",
+    "gender":"male",
+    "age":24,
+    "education":"BE-Mechanical Engineering",
+    "location":"cheenai"
+}
+function forloop(...details){
+for(var i=0;i<details.length;i++)
+{
+    console.log(details[i].name)
+    console.log(details[i].gender)
+    console.log(details[i].age)
+    console.log(details[i].education)
+    console.log(details[i].location)
+}
+}
+Function calling:forloop(details)
+
+Output:
+
+ramesh kumar
+male
+24
+BE-Mechanical Engineering
+cheenai
+
+2)using forin loop
+
+code:
+var details={
+    "name":"ramesh kumar",
+    "gender":"male",
+    "age":24,
+    "education":"BE-Mechanical Engineering",
+    "location":"cheenai"
+}
+function forin(data){
+for(i in data)
+{
+    console.log(data[i])
+}
+}
+
+function calling:forin(details)
+
+output:
+ramesh kumar
+male
+24
+BE-Mechanical Engineering
+cheenai
+
+
+3)using for of loop
+
+
+code:
+var details={
+    "name":"ramesh kumar",
+    "gender":"male",
+    "age":24,
+    "education":"BE-Mechanical Engineering",
+    "location":"cheenai"
+}
+function forof(...details){
+for(data of details)
+{
+   for(key in data)
+   {
+       console.log(data[key])
+   }
+}
+}
+Functioncalling:forof(details)
+
+output:
+
+ramesh kumar
+male
+24
+BE-Mechanical Engineering
+cheenai
+
+4)using forEach
+
+var details={
+    "name":"ramesh kumar",
+    "gender":"male",
+    "age":24,
+    "education":"BE-Mechanical Engineering",
+    "location":"cheenai"
+}
+function foreach(...num){
+    num.forEach(element =>console.log(element.name))
+    num.forEach(element =>console.log(element.gender))
+    num.forEach(element =>console.log(element.age))
+    num.forEach(element =>console.log(element.education))
+    num.forEach(element =>console.log(element.location))
+}
+
+function calling:foreach(details)
+
+output:
+
+ramesh kumar
+male
+24
+BE-Mechanical Engineering
+cheenai
+
+
+
+Q2)create your own resume data in JSON format
+
+var resume={
+"personal details":{
+"name":"ramesh kumar",
+"gender":"male",
+"country":"indian",
+"education":"BE-mechanical engineering"
+},"address":{
+"state":"tamil nadu",
+"district":"trichy",
+"town":"gundur",
+"street":"8th cross",
+"pincode":620007},
+"educational Qualification":{
+"degree":"Mechanical Engineering",
+"percentage":78,
+"HSC percentage":84,
+"SSLC percentage":94},"contact":{
+"phone number":9025921246,
+"email id":"rameshkumar359.k@gmail.com,
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

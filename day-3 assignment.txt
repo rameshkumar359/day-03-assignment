@@ -121,24 +121,48 @@ Q2)create your own resume data in JSON format
 
 var resume={
 "personal details":{
-"name":"ramesh kumar",
+"name":"ramesh kumar"
 "gender":"male",
-"country":"indian",
-"education":"BE-mechanical engineering"
-},"address":{
+"country":"indian"
+"education":"BE-mechanical engineering",
 "state":"tamil nadu",
 "district":"trichy",
 "town":"gundur",
 "street":"8th cross",
-"pincode":620007},
-"educational Qualification":{
+"pincode":620007,
 "degree":"Mechanical Engineering",
-"percentage":78,
-"HSC percentage":84,
-"SSLC percentage":94},"contact":{
+"percentage":"cgpa-78,
+"HSC percentage":"hsc-84",
+"SSLC percentage":94
 "phone number":9025921246,
 "email id":"rameshkumar359.k@gmail.com,
 }
+
+code:
+for(i in resume)
+{
+    console.log(resume[i])
+}
+
+
+
+output:
+ramesh kumar
+male
+indian
+BE-mechanical engineering
+tamil nadu
+trichy
+gundur
+8th cross
+620007
+Mechanical Engineering
+84
+94
+9025921246
+rameshkumar359.k@gmail.com
+
+
 
 
 

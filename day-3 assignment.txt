@@ -120,10 +120,9 @@ cheenai
 Q2)create your own resume data in JSON format
 
 var resume={
-"personal details":{
-"name":"ramesh kumar"
+"name":"ramesh kumar",
 "gender":"male",
-"country":"indian"
+"country":"indian",
 "education":"BE-mechanical engineering",
 "state":"tamil nadu",
 "district":"trichy",
@@ -131,11 +130,11 @@ var resume={
 "street":"8th cross",
 "pincode":620007,
 "degree":"Mechanical Engineering",
-"percentage":"cgpa-78,
+"percentage":"cgpa-78",
 "HSC percentage":"hsc-84",
-"SSLC percentage":94
+"SSLC percentage":"sslc-94",
 "phone number":9025921246,
-"email id":"rameshkumar359.k@gmail.com,
+"email id":"rameshkumar359.k@gmail.com",
 }
 
 code:
@@ -157,12 +156,11 @@ gundur
 8th cross
 620007
 Mechanical Engineering
-84
-94
+cgpa-78
+hsc-84
+sslc-94
 9025921246
 rameshkumar359.k@gmail.com
-
-
 
 
 
